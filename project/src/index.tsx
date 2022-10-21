@@ -1,6 +1,7 @@
+import App from './components/app/app';
+import {Data} from './constants';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/app/app';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -8,6 +9,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App />
+    <App offersAmount={Data.OFFERS_AMOUNT}/>
   </React.StrictMode>,
 );
