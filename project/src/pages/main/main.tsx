@@ -1,8 +1,5 @@
 import Card from '../../components/card/card';
-
-type MainProps = {
-  offersAmount: number;
-}
+import {MainProps} from '../../types/types';
 
 function Main ({offersAmount}: MainProps): JSX.Element {
   return (
