@@ -1,0 +1,37 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.error-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.error-code {
+  font-size: 90px;
+  text-shadow: 1px 0 0, -1px 0 0;
+  transform: skewX(-15deg);
+  display: inline-block;
+  color: #fff;
+  background-color: #4481c3;
+  padding: 9px 21px 0 17px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.error-link {
+  padding: 20px;
+}
+
+.error-link:hover {
+  text-shadow: 0.5px 0 0, -0.5px 0 0;
+  transition: 0.2s ease;
+}
